@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Lister</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+       <div class="container">
+        <h1 id="header-title">
+            Item Lister
+        </h1>
+        
+       </div>
+       <div id="filter-div" class="col-md-6 align-self-center">
+        <input type="text" class="form-control" id="filter" placeholder="Search items...">
+       </div>
+    </header>
+    <div id="first-div">
+        <div class="second-div">
+        <h2 id="new-item">Add Items</h2>
+       <form action="" id="form">
+           <input type="text" placeholder="e.g: Item 5" class="add-item" id="input">
+           <select class="form-control mr-2">
+               <option value="">1</option>
+               <option value="">2</option>
+               <option value="">3</option>
+           </select>
+           <input type="submit" value="Submit" class="submit">
+       </form>
+       <h2 id="items">Items</h2>
+          <ul class="list-container" id="list-group">
+            <li class="list">
+                Item 1 <button class="btn btn-danger btn-sm  delete">X</button>
+            </li>
+            <li class="list">Item 2 <button class="btn btn-danger btn-sm  delete">X</button></li>
+            <li class="list">Item 3 <button class="btn btn-danger btn-sm  delete">X</button></li>
+            <li class="list">Item 4 <button class="btn btn-danger btn-sm  delete">X</button></li>
+          </ul>
+          <div id="output"></div>
+<!--           
+          <button id="button">
+            Click here
+          </button> -->
+          <br>
+          <!--<div id="box" style="width:400px; height:200px; background-color: #f4f4f4">
+            <h3>HELLO</h3>-->
+        </div>
+       </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
